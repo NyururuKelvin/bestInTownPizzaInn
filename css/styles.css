@@ -1,3 +1,7 @@
+h1{
+  border-bottom: brown solid 5px;
+}
+
 .logo{
     margin-top: 5%;
     font-family: 'Diplomata SC', cursive;
