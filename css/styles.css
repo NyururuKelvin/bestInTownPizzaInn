@@ -13,7 +13,7 @@
     width: 100%;
     height: 100vh;
   }
-  h4, h6{
+  h4, h6, .social, .order{
     text-align: center;
   }
 .gallery img{
