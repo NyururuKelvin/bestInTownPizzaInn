@@ -17,7 +17,7 @@
         <!-- <img src="./images/370-3705256_antoninos-pizza-logo-antoninos-pizza-logo-hd-png.png" alt=""> -->
         <h1>COCONUT STRIPE PIZZA INN</h1>
     </div><br>
-    <div class="container">
+    <div class="container pizza">
         <label>Pizza type
             <select id="type">
                 <option value="Hawaiina">Hawaiina</option>
@@ -45,7 +45,7 @@
                     <input type="radio" name="size" value="3"> Large<br>  
                 </div>
 
-                <div>
+                <div class="crust">
                     <h3>Select the crusting:</h3>
                     <input type="radio" name="crust" value="50"> Crispy<br>
                     <input type="radio" name="crust" value="200"> Stuffed<br>
@@ -53,10 +53,10 @@
                     <input type="radio" name="crust" value="0"> None<br>  
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 toppings">
                 <h3>Add Meat Toppings:</h3>
         
-                <label class="container topping">Extra Macon
+                <label class="container">Extra Macon
                     <input type="checkbox" name="topping" value="100">
                     <span class="checkmark"></span>
                 </label>
@@ -85,7 +85,7 @@
                     <span class="checkmark"></span> 
                 </label>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 toppings">
                 <h3>Add Vegetable Toppings:</h3>
         
                 <label class="container topping">Extra Chilli
@@ -119,6 +119,13 @@
             </div>
         </div>
     </div><br>
+    <div class="container submit">
+        <div class="subtotal">
+            <button type="submit" class="btn btn-danger" id="submit">Add To Cart</button>
+            <div class="subtotal">
+                <p id="subtotal"></p>
+            </div>
+        </div>
 </body>
 <script src="./js/script.js"></script>
 <footer>
