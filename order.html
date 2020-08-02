@@ -18,21 +18,29 @@
         <h1>COCONUT STRIPE PIZZA INN</h1>
     </div><br>
     <div class="container pizza">
-        <label>Pizza type
-            <select id="type">
-                <option value="Hawaiina">Hawaiina</option>
-                <option value="ChickenMushrooms">ChickenMushrooms</option>
-                <option value="Bbq Steak">Bbq Steak</option>
-                <option value="Peri Peri Chicken">Peri Peri Chicken</option>
-                <option value="Chicken Tikka">Chicken Tikka</option>
-                <option value="Veg Tikka">Veg Tikka</option>
-                <option value="Mergherita">Mergherita</option>
-                <option value="Pepperoni">Pepperoni</option>
-            </select>
-        </label>
-        <label>Number of Pizzas:
-            <input type="number" id="number" name="amount" min="1" value="1" placeholder="Enter a number" >
-        </label>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="new-first-name"><strong>Pizza Type</strong></label>
+                    <select  class="form-control" id="type">
+                        <option value="Hawaiina">Hawaiina</option>
+                        <option value="ChickenMushrooms">ChickenMushrooms</option>
+                        <option value="Bbq Steak">Bbq Steak</option>
+                        <option value="Peri Peri Chicken">Peri Peri Chicken</option>
+                        <option value="Chicken Tikka">Chicken Tikka</option>
+                        <option value="Veg Tikka">Veg Tikka</option>
+                        <option value="Mergherita">Mergherita</option>
+                        <option value="Pepperoni">Pepperoni</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="new-first-name"><strong>No. of Pizzas</strong></label>
+                    <input class="form-control" type="number" id="number" name="amount" min="1" value="1" placeholder="Enter a number" >
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">

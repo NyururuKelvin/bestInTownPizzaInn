@@ -11,3 +11,12 @@
      return "large"
    }
  };
+
+//  order function
+
+$(document).ready(function(){
+    $('#submit').click(function(event){
+        event.preventDefault();
+        var type = $
+    })
+})
