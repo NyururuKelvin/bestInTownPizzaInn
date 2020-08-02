@@ -25,7 +25,8 @@ h1{
   }
 .gallery img{
   height: 300px;
-  width: 350px;
+  width: 100%;
+  border-radius: 5%;
 }
 .crust{
   border-top: brown solid 1px;
@@ -43,4 +44,11 @@ form{
 a, a:hover{
   color: white;
   text-decoration: none;
+}
+.card{
+  border: thin;
+}
+.card-footer{
+  background-color: brown;
+  color: white;
 }
