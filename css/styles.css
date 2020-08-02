@@ -52,3 +52,11 @@ a, a:hover{
   background-color: brown;
   color: white;
 }
+h4, h3{
+  color: brown;
+  font-size: larger;
+  font-family: 'Source Code Pro', monospace;
+}
+alert{
+  margin-top: 20%;
+}
