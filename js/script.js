@@ -60,8 +60,8 @@ $("#delivery").click(function(){
     if (name == '' || contact == '' || location == ''|| street== '' ){
       swal("Kindly fill all the fields");        
     } else {
-      swal('Hello ' +name + " we have received your order. And will be deliverd to "+ street +' Street, ' + location + " in less than 30 Min. Delivery charges: Ksh "+delivery);
-      $("#summary").html("Your order summary is as follows: <br/> Type:" + type + "<br/>" + " Size: " + getSize(size) + "<br/>" + " Price: Kshs " + price[size] + "<br/>"+ " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>" +" Total: Kshs " + subTotal);
-     }
-
+      swal('Hello ' +name + " we have received your order. And will be deliverd to "+ street +' Street, ' + location + " in less than 30 Min. Delivery charges: Ksh " + delivery);
+      
+    }
   });
+  
