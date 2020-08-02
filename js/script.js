@@ -51,7 +51,7 @@ $("#delivery").click(function(){
   //validate delivery form
   $("#confirm").click(function(){
     event.preventDefault()
-    var town=["CBD", "Hurlingham", "Muthaiga", "Ngaong Road", "South B", "WestLands", "Thika Road"]
+    var town=["CBD", "Hurlingham", "Muthaiga", "Ngong Road", "South B", "WestLands", "Thika Road"]
     var charges=[50,100,150,100,100, 50, 100]
     var name = $("#name").val();
     var contact = $("#contact").val();
@@ -59,7 +59,7 @@ $("#delivery").click(function(){
     var street = $("#street").val();
     var delivery = charges[$("#location").val()];
     if (name == '' || contact == '' || location == ''|| street== '' ){
-      alert("Please fill all fields");        
+      alert("Kindly fill all the fields");        
     } else {
       alert('Hello ' +name + " we have received your order. And will be deliverd to "+ street +' Street, ' + location + " in less than 30 Min. Delivery charges: Ksh "+delivery);
       $("#summary").html("Your order summary is as follows: <br/> Type:" + type + "<br/>" + " Size: " + getSize(size) + "<br/>" + " Price: Kshs " + price[size] + "<br/>"+ " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>" +" Total: Kshs " + subTotal);
