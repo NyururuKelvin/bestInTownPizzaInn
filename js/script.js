@@ -58,9 +58,9 @@ $("#delivery").click(function(){
     var street = $("#street").val();
     var delivery = charges[$("#location").val()];
     if (name == '' || contact == '' || location == ''|| street== '' ){
-      swal("Kindly fill all the fields");        
+      swal("Error", "Kindly fill all the fields", "error");        
     } else {
-      swal('Hello ' +name + " we have received your order. And will be deliverd to "+ street +' Street, ' + location + " in less than 30 Min. Delivery charges: Ksh " + delivery);
+      swal('Hello ' +name + " we have received your order. And will be delivered to "+ street +' Street, ' + location + " in less than 30 Min. Delivery charges: Ksh " + delivery);
       
     }
   });
