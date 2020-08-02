@@ -4,7 +4,7 @@
 ## Description
 Legends Pizza Inn is a website that allows user to place Pizza order of their choice according to type, size, and type of toppings and crust they want.With the user input the website calculates the total amount in respect to how many pizzas the want. The customer has option of picking up or the Pizza being dropped the location of their choice 
 
-![picture](images/domonis-pizza.jpg)
+![picture](images/dominos-pizza.jpg)
 
 ## BDD
 * Visit the site.
