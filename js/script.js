@@ -12,7 +12,7 @@
    }
  };
 
-//  order function
+//  Order function
 
 $(document).ready(function(){
     $('#submit').click(function(event){
@@ -33,5 +33,15 @@ $(document).ready(function(){
 
     if (size =='undefined'|| (price[size]) == 'undefined' || crust == 'NaN' || sumToppings == '' || subTotal == 'NaN'){         
         $("#subtotal").html('Kindly select at least one size, and a crust.')
-    } else
+    } else{
+        $("#subtotal").html("<strong>Your Pick:</strong>" + "<br/>"+"Type:" + type + "<br/>"+ " Size: " + getSize(size)+ "<br/>"+" No. of Pizzas ordered " + amount+ "<br/>"+ " Price: Kshs " + price[size] + "<br/>" + " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>"+" <strong>Total: Kshs </strong>" + subTotal);
+        $(".deliver").show();
+    }
+
+    $("#checkout").click(function(){
+        alert("Thank you for shopping with us, Kindly pick up your order at the counter near by.")
+        
+      })
 })
+
+// User Validation

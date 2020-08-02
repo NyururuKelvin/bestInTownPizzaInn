@@ -30,3 +30,10 @@ h1{
 .toppings{
   border: brown solid 1px;
 }
+
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+}
