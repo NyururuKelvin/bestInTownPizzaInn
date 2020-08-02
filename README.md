@@ -12,7 +12,7 @@ coconutPizzaInn is a website that allows user to place Pizza order of their choi
 * Make an order.
 
 ## Live Demo
-https://nyururukelvin.github.io/coconutPizzaInn/
+https://nyururukelvin.github.io/coconutStripePizzaInn/
 
 ## Set up Instructions
 * Access through cloning the repository
