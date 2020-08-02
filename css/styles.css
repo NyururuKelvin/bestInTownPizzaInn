@@ -20,6 +20,9 @@ h1{
   h4, h6, .social, .order, .pizza, .submit{
     text-align: center;
   }
+  #subtotal{
+    text-align: left;
+  }
 .gallery img{
   height: 300px;
   width: 350px;
@@ -34,6 +37,10 @@ h1{
 .deliver{
   display: none;
 }
-.delivery{
+form{
   display: none;
+}
+a, a:hover{
+  color: white;
+  text-decoration: none;
 }
