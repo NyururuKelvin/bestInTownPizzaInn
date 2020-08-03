@@ -1,4 +1,4 @@
-# coconutPizzaInn
+# coconutStripePizzaInn
 #### By Nyururu Kelvin, 02/08/2020
 
 ## Description
