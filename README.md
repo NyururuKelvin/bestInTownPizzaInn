@@ -16,7 +16,7 @@ https://nyururukelvin.github.io/coconutStripePizzaInn/
 
 ## Set up Instructions
 * Access through cloning the repository
-* Navigate to delani coconutPizzaInn folder 
+* Navigate to coconutStripePizzaInn folder 
 * Running the html file
 
 ## Known Bugs
